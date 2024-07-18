@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: aliceblue;
+}
+
+#cabeçalho_site{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+#imagem_minha{
+    display: flex;
+    justify-content: center;
+}
+
+#imagem_minha img{
+    height: 300px;
+    width: auto;
+    border-radius: 50px 50px 50px 50px;
+    transition: 1s;
+}
+
+#imagem_minha img:hover{
+    transform: scale(1.1);
+}
+
+#Sobre_mim{
+    display: flex;
+    justify-content: center;
+}
+
+#Sobre_mim p{
+    text-align: center;
+    width: 50%;  
+    color: aliceblue;  
+}
+
+#Sobre_mim p h1{
+    color: aliceblue;
+}
+
+#certificados{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+#rede_social{
+    display: flex;
+    justify-content: center;
+}
+
+#rede_social a img{
+    height: 40px;
+    width: auto;
+    margin: 10px;
+    transition: 1s;
+}
+
+#rede_social a img:hover{
+    transform: scale(1.1);
+}
