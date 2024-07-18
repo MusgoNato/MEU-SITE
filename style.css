@@ -3,13 +3,14 @@ body{
 }
 
 p{
-    color: aliceblue;
+    color: white;
 }
 
 #cabeçalho_site{
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: white;
+    margin-bottom: 20px;
 }
 
 #imagem_minha{
@@ -36,11 +37,11 @@ p{
 #Sobre_mim p{
     text-align: center;
     width: 50%;  
-    color: aliceblue;  
+    color: white;  
 }
 
 #Sobre_mim p h1{
-    color: aliceblue;
+    color: white;
 }
 
 #certificados{
