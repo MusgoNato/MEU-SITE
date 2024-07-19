@@ -3,12 +3,14 @@ body{
 }
 
 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
     color: white;
 }
 
 #cabeçalho_site{
     display: flex;
     justify-content: center;
+    font-size: x-large;  
     color: white;
     margin-bottom: 20px;
 }
@@ -35,22 +37,28 @@ p{
 }
 
 #Sobre_mim p{
-    text-align: center;
+    text-align: justify;
     width: 50%;  
-    color: white;  
-}
-
-#Sobre_mim p h1{
     color: white;
 }
-
 #certificados{
     display: flex;
     justify-content: center;
 }
 
 li{
-    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;  
+    color: white;
+    transition: 0.5s;
+}
+
+li:hover{
+    transform: translate(-6px, -3px);
+    transition-duration: 0.5s;
 }
 
 
@@ -70,8 +78,8 @@ li{
     transform: scale(1.1);
 }
 
-#certificados ul li h1{
+#Cursos{
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: white;
 }
