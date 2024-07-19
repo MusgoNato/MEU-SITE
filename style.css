@@ -31,6 +31,12 @@ p{
     transform: scale(1.1);
 }
 
+#Sobre{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
 #Sobre_mim{
     display: flex;
     justify-content: center;
