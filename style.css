@@ -69,3 +69,9 @@ li{
 #rede_social a img:hover{
     transform: scale(1.1);
 }
+
+#certificados ul li h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
